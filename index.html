@@ -1,1 +1,171 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myTopos - Ο Απόλυτος Οδηγός της Αθήνας</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Montserrat', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('Use AI Image Jun 1, 2026, 18_11_15.png') no-repeat center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
 
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-50 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-20 items-center">
+                <div class="flex-shrink-0 flex items-center gap-2">
+                    <i class="fa-solid fa-map-location-dot text-3xl text-blue-600"></i>
+                    <span class="font-extrabold text-2xl tracking-tight text-gray-900">my<span class="text-blue-600">Topos</span></span>
+                </div>
+                <div>
+                    <a href="#download" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full transition duration-300 shadow-lg">
+                        Αποκτήστε τον Οδηγό
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg h-screen flex items-center justify-center text-center mt-10">
+        <div class="max-w-4xl px-4">
+            <span class="bg-blue-600 text-white text-sm font-bold uppercase tracking-wider py-1 px-3 rounded-full mb-6 inline-block">Νεα Κυκλοφορια 2026</span>
+            <h1 class="text-5xl md:text-6xl font-extrabold text-white mb-6 leading-tight">
+                Ανακαλύψτε την Αθήνα <br><span class="text-blue-400">Όπως Ποτέ Άλλοτε</span>
+            </h1>
+            <p class="text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
+                Ιστορία, κρυμμένα γαστρονομικά διαμάντια, πρακτικές συμβουλές και <strong class="text-white">ειδικές προτάσεις για οικογένειες με μικρά παιδιά</strong>. Όλα σε έναν ψηφιακό οδηγό.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#features" class="bg-white text-gray-900 font-bold py-4 px-8 rounded-full hover:bg-gray-100 transition duration-300">
+                    Τι περιλαμβάνει;
+                </a>
+                <a href="#download" class="bg-blue-600 text-white font-bold py-4 px-8 rounded-full hover:bg-blue-700 transition duration-300 flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-download"></i> Κατέβασμα E-Book
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">Τι θα βρείτε στις σελίδες του;</h2>
+                <p class="text-lg text-gray-600">5 Κατηγορίες γεμάτες διαδραστικούς χάρτες και έτοιμα links κρατήσεων.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 overflow-hidden flex flex-col">
+                    <img src="Use AI Image Jun 1, 2026, 18_11_15.png" alt="Ιστορικά Ορόσημα" class="w-full h-48 object-cover">
+                    <div class="p-8 pt-0 flex-1 relative">
+                        <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center -mt-7 mb-4 text-blue-600 text-2xl shadow-md mx-auto">
+                            <i class="fa-solid fa-monument"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-center">Ιστορικά Ορόσημα</h3>
+                        <p class="text-gray-600 text-center">Από τον Παρθενώνα έως τον Μηχανισμό των Αντικυθήρων. Κόστη, ωράρια και skip-the-line links.</p>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 overflow-hidden flex flex-col">
+                    <img src="Use AI Image Jun 1, 2026, 18_11_25.png" alt="Χάρτης Γειτονιών" class="w-full h-48 object-cover">
+                    <div class="p-8 pt-0 flex-1 relative">
+                        <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center -mt-7 mb-4 text-blue-600 text-2xl shadow-md mx-auto">
+                            <i class="fa-solid fa-map"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-center">Χάρτης Γειτονιών</h3>
+                        <p class="text-gray-600 text-center">Πλάκα, Ψυρρή, Κουκάκι. Πού να μείνετε, πού να περπατήσετε και τα καλύτερα spots για φωτογραφίες.</p>
+                    </div>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 overflow-hidden flex flex-col">
+                    <img src="Use AI Image Jun 1, 2026, 18_12_18 (1).png" alt="Γαστρονομία" class="w-full h-48 object-cover">
+                    <div class="p-8 pt-0 flex-1 relative">
+                        <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center -mt-7 mb-4 text-blue-600 text-2xl shadow-md mx-auto">
+                            <i class="fa-solid fa-utensils"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3 text-center">Γαστρονομία</h3>
+                        <p class="text-gray-600 text-center">Αυθεντικό street food, ελληνικές ταβέρνες και rooftop bars με μαγευτική θέα στην Ακρόπολη.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Family Friendly Banner -->
+    <section class="py-20 bg-blue-600 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row items-center justify-between gap-12">
+            <div class="lg:w-1/2">
+                <div class="flex items-center gap-3 mb-4">
+                    <i class="fa-solid fa-children text-3xl text-blue-200"></i>
+                    <h2 class="text-3xl lg:text-4xl font-extrabold">100% Family Friendly</h2>
+                </div>
+                <p class="text-xl text-blue-100 mb-6 leading-relaxed">
+                    Γνωρίζουμε πόσο δύσκολο είναι να ταξιδεύεις με μικρά παιδιά. Γι' αυτό ο οδηγός του myTopos περιλαμβάνει ειδική κατηγορία με links κρατήσεων και δραστηριοτήτων <strong class="text-white">αποκλειστικά σχεδιασμένων για οικογένειες, με εύκολη πρόσβαση για καρότσια</strong>.
+                </p>
+                <ul class="space-y-4 text-lg text-blue-50">
+                    <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-green-400"></i> Διαχείριση προγράμματος ύπνου (nap times)</li>
+                    <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-green-400"></i> Χαρτογράφηση για βόλτες με καρότσι</li>
+                    <li class="flex items-center gap-3"><i class="fa-solid fa-check-circle text-green-400"></i> Επιλογές ασφαλούς φαγητού για νήπια</li>
+                </ul>
+            </div>
+            <div class="lg:w-1/2 relative w-full h-auto mt-10 lg:mt-0">
+                <!-- Παιδί με κουλούρι -->
+                <img src="Use AI Image Jun 1, 2026, 18_18_41 (1).png" alt="Παιδί τρώει κουλούρι" class="rounded-2xl shadow-2xl relative z-10 w-full md:w-4/5 md:ml-auto border-4 border-white transform md:rotate-2">
+                <!-- Βόλτα με καρότσι (Επικαλύπτει τη γωνία σε desktop) -->
+                <img src="Use AI Image Jun 1, 2026, 18_25_27 (1).png" alt="Βόλτα με καρότσι" class="rounded-2xl shadow-xl absolute -bottom-16 -left-4 w-2/3 border-4 border-white transform md:-rotate-3 hidden md:block z-20">
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing / Download Section -->
+    <section id="download" class="pt-32 pb-24 bg-gray-50">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-4xl font-extrabold text-gray-900 mb-6">Έτοιμοι για το ταξίδι σας;</h2>
+            <p class="text-lg text-gray-600 mb-10">Αποκτήστε τον ψηφιακό οδηγό (PDF) σε μορφή βελτιστοποιημένη για κινητά τηλέφωνα και tablets, με ενεργά links για Google Maps και κρατήσεις.</p>
+            
+            <div class="bg-white rounded-3xl shadow-xl p-10 max-w-md mx-auto border border-gray-100">
+                <div class="text-blue-600 font-extrabold text-5xl mb-4">9.90€</div>
+                <p class="text-gray-500 mb-8">Εφάπαξ πληρωμή. Άμεσο κατέβασμα.</p>
+                
+                <ul class="text-left space-y-4 mb-8">
+                    <li class="flex items-center gap-3 text-gray-700"><i class="fa-solid fa-check text-green-500"></i> 25 κορυφαίες προτάσεις</li>
+                    <li class="flex items-center gap-3 text-gray-700"><i class="fa-solid fa-check text-green-500"></i> Διαδραστικά Links Χαρτών</li>
+                    <li class="flex items-center gap-3 text-gray-700"><i class="fa-solid fa-check text-green-500"></i> Affiliate εκπτώσεις δραστηριοτήτων</li>
+                    <li class="flex items-center gap-3 text-gray-700"><i class="fa-solid fa-check text-green-500"></i> Οικογενειακές συμβουλές</li>
+                </ul>
+
+                <button class="w-full bg-blue-600 text-white font-bold text-lg py-4 rounded-xl hover:bg-blue-700 transition duration-300 shadow-lg hover:shadow-blue-500/50">
+                    Αγορά & Κατέβασμα
+                </button>
+                <p class="text-xs text-gray-400 mt-4"><i class="fa-solid fa-lock"></i> Ασφαλείς συναλλαγές</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12 text-center">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-center items-center gap-2 mb-6 opacity-80">
+                <i class="fa-solid fa-map-location-dot text-2xl text-blue-500"></i>
+                <span class="font-extrabold text-xl text-white">my<span class="text-blue-500">Topos</span></span>
+            </div>
+            <p class="mb-6">Σχεδιασμένο για να κάνει το ταξίδι σας στην Αθήνα αξέχαστο.</p>
+            <p class="text-sm">© 2026 myTopos. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
