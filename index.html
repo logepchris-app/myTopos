@@ -29,12 +29,13 @@
     <!-- Navigation -->
     <nav class="fixed w-full bg-white/95 backdrop-blur-sm shadow-sm z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <!-- Changed fixed height to dynamic padding (py-4) to fit the huge logo -->
-            <div class="flex justify-between items-center py-4">
+            <div class="flex justify-between items-center h-20 md:h-24">
                 <!-- Logo -->
-                <a href="#" class="flex-shrink-0 flex items-center">
-                    <!-- Doubled logo height (h-24 on mobile, h-40 on desktop) -->
-                    <img src="myTOPOS_logo_transparent.png" alt="myTOPOS" class="h-24 md:h-40 w-auto object-contain" onerror="this.onerror=null; this.outerHTML='<span class=\'text-3xl font-bold text-blue-600\'>myTOPOS</span>';">
+                <a href="#" class="flex-shrink-0 flex items-center gap-1 md:gap-2 hover:opacity-80 transition">
+                    <i data-lucide="map-pin" class="w-8 h-8 md:w-10 md:h-10 text-blue-600"></i>
+                    <span class="text-3xl md:text-5xl tracking-tight text-blue-600">
+                        <span class="font-light">my</span><span class="font-extrabold">TOPOS</span>
+                    </span>
                 </a>
                 <!-- CTA Button Navbar -->
                 <a href="#download" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-5 md:px-6 rounded-full shadow-md transition flex items-center gap-2 text-sm md:text-base">
@@ -163,9 +164,9 @@
             <h2 class="text-4xl font-bold mb-6">Ready for your trip?</h2>
             <p class="text-xl text-gray-300 mb-10">Get the myTOPOS digital guide in PDF format and read it on your phone, tablet, or computer, offline and on the go.</p>
             
-            <div class="bg-white/10 p-8 rounded-3xl backdrop-blur-sm border border-gray-700 max-w-md mx-auto">
-                <div class="text-gray-300 font-medium mb-2">Special Price</div>
-                <div class="text-5xl font-extrabold text-blue-400 mb-6">2.99€</div>
+            <div class="bg-blue-950 p-8 rounded-3xl shadow-2xl border border-blue-900 max-w-md mx-auto">
+                <div class="text-white font-medium mb-2">Special Price</div>
+                <div class="text-5xl font-extrabold text-white mb-6">2.99€</div>
                 
                 <!-- Payment Link goes here -->
                 <a href="#" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-bold py-4 px-8 rounded-xl text-lg shadow-lg transition flex justify-center items-center gap-3">
@@ -173,7 +174,7 @@
                     Instant Download (PDF)
                 </a>
                 
-                <div class="mt-6 flex justify-center items-center gap-4 text-gray-400 text-sm">
+                <div class="mt-6 flex justify-center items-center gap-4 text-white text-sm">
                     <span class="flex items-center gap-1"><i data-lucide="lock" class="w-4 h-4"></i> Secure Payment</span>
                     <span class="flex items-center gap-1"><i data-lucide="smartphone" class="w-4 h-4"></i> Works Anywhere</span>
                 </div>
