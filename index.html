@@ -13,7 +13,7 @@
     <style>
         body { font-family: 'Montserrat', sans-serif; }
         .hero-bg {
-            background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('Use AI Image Jun 1, 2026, 18_11_15.png') no-repeat center center;
+            background: linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.7)), url('acropolis.png') no-repeat center center;
             background-size: cover;
         }
     </style>
@@ -23,14 +23,15 @@
     <!-- Navbar -->
     <nav class="bg-white shadow-md fixed w-full z-50 top-0">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-20 items-center">
-                <div class="flex-shrink-0 flex items-center gap-2">
-                    <i class="fa-solid fa-map-location-dot text-3xl text-blue-600"></i>
-                    <span class="font-extrabold text-2xl tracking-tight text-gray-900">my<span class="text-blue-600">Topos</span></span>
+            <div class="flex justify-between h-20 items-center gap-2">
+                <div class="flex-shrink-0 flex items-center gap-1 sm:gap-2">
+                    <i class="fa-solid fa-map-location-dot text-2xl sm:text-3xl text-blue-600"></i>
+                    <span class="font-extrabold text-xl sm:text-2xl tracking-tight text-gray-900">my<span class="text-blue-600">Topos</span></span>
                 </div>
                 <div>
-                    <a href="#download" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded-full transition duration-300 shadow-lg">
-                        Αποκτήστε τον Οδηγό
+                    <a href="#download" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 sm:px-6 text-sm sm:text-base rounded-full transition duration-300 shadow-lg whitespace-nowrap flex items-center gap-2">
+                        <span class="hidden sm:inline">Αποκτήστε τον Οδηγό</span>
+                        <span class="sm:hidden"><i class="fa-solid fa-download"></i> Οδηγός</span>
                     </a>
                 </div>
             </div>
@@ -69,7 +70,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
                 <!-- Card 1 -->
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 overflow-hidden flex flex-col">
-                    <img src="Use AI Image Jun 1, 2026, 18_11_15.png" alt="Ιστορικά Ορόσημα" class="w-full h-48 object-cover">
+                    <img src="acropolis.png" onerror="this.src='https://placehold.co/800x400/e2e8f0/475569?text=Acropolis'" alt="Ιστορικά Ορόσημα" class="w-full h-48 object-cover">
                     <div class="p-8 pt-0 flex-1 relative">
                         <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center -mt-7 mb-4 text-blue-600 text-2xl shadow-md mx-auto">
                             <i class="fa-solid fa-monument"></i>
@@ -80,7 +81,7 @@
                 </div>
                 <!-- Card 2 -->
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 overflow-hidden flex flex-col">
-                    <img src="Use AI Image Jun 1, 2026, 18_11_25.png" alt="Χάρτης Γειτονιών" class="w-full h-48 object-cover">
+                    <img src="plaka.png" onerror="this.src='https://placehold.co/800x400/e2e8f0/475569?text=Plaka+Street'" alt="Χάρτης Γειτονιών" class="w-full h-48 object-cover">
                     <div class="p-8 pt-0 flex-1 relative">
                         <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center -mt-7 mb-4 text-blue-600 text-2xl shadow-md mx-auto">
                             <i class="fa-solid fa-map"></i>
@@ -91,7 +92,7 @@
                 </div>
                 <!-- Card 3 -->
                 <div class="bg-white rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition duration-300 overflow-hidden flex flex-col">
-                    <img src="Use AI Image Jun 1, 2026, 18_12_18 (1).png" alt="Γαστρονομία" class="w-full h-48 object-cover">
+                    <img src="Greekfood.png" onerror="this.src='https://placehold.co/800x400/e2e8f0/475569?text=Greek+Food'" alt="Γαστρονομία" class="w-full h-48 object-cover">
                     <div class="p-8 pt-0 flex-1 relative">
                         <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center -mt-7 mb-4 text-blue-600 text-2xl shadow-md mx-auto">
                             <i class="fa-solid fa-utensils"></i>
@@ -123,9 +124,9 @@
             </div>
             <div class="lg:w-1/2 relative w-full h-auto mt-10 lg:mt-0">
                 <!-- Παιδί με κουλούρι -->
-                <img src="Use AI Image Jun 1, 2026, 18_18_41 (1).png" alt="Παιδί τρώει κουλούρι" class="rounded-2xl shadow-2xl relative z-10 w-full md:w-4/5 md:ml-auto border-4 border-white transform md:rotate-2">
+                <img src="babyboy.png" onerror="this.src='https://placehold.co/600x800/e2e8f0/475569?text=Toddler'" alt="Παιδί τρώει κουλούρι" class="rounded-2xl shadow-2xl relative z-10 w-full md:w-4/5 md:ml-auto border-4 border-white transform md:rotate-2">
                 <!-- Βόλτα με καρότσι (Επικαλύπτει τη γωνία σε desktop) -->
-                <img src="Use AI Image Jun 1, 2026, 18_25_27 (1).png" alt="Βόλτα με καρότσι" class="rounded-2xl shadow-xl absolute -bottom-16 -left-4 w-2/3 border-4 border-white transform md:-rotate-3 hidden md:block z-20">
+                <img src="Niarchos.png" onerror="this.src='https://placehold.co/800x600/e2e8f0/475569?text=Family+Walk'" alt="Βόλτα με καρότσι" class="rounded-2xl shadow-xl absolute -bottom-16 -left-4 w-2/3 border-4 border-white transform md:-rotate-3 hidden md:block z-20">
             </div>
         </div>
     </section>
