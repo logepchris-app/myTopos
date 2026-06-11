@@ -158,11 +158,14 @@
         </div>
     </section>
 <!-- 5-Day Itineraries & Island Section -->
-    <section class="py-20 border-t border-gray-100 relative" style="background-image: linear-gradient(rgba(255, 255, 255, 0.65), rgba(240, 249, 255, 0.95)), url('agistri.png'); background-size: cover; background-position: center;">
+    <section class="py-20 relative" style="background-image: url('agistri.png'); background-size: cover; background-position: center;">
+        <!-- Ένα ελάχιστο, σχεδόν αόρατο σκούρο φίλτρο (10%) ίσα-ίσα για να κάνουν αντίθεση τα λευκά κουτιά -->
+        <div class="absolute inset-0 bg-black/10"></div>
+        
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="flex flex-col lg:flex-row items-center gap-12">
-                <!-- Text Content -->
-                <div class="w-full lg:w-1/2 p-6 md:p-0 bg-white/70 md:bg-transparent rounded-3xl backdrop-blur-md md:backdrop-blur-none shadow-sm md:shadow-none">
+                <!-- Text Content (Μετατράπηκε σε Glassmorphism κουτί) -->
+                <div class="w-full lg:w-1/2 p-8 bg-white/85 backdrop-blur-md rounded-3xl shadow-2xl border border-white/50">
                     <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-600 text-white font-semibold text-sm mb-6 shadow-md">
                         <i data-lucide="map" class="w-4 h-4"></i> Ready-to-use Plans
                     </div>
@@ -171,14 +174,14 @@
                         Don't know where to start? The guide includes <strong>two complete 5-day itineraries</strong> taking the guesswork out of your planning. We've balanced the sightseeing with relaxation, and even included a perfect getaway to a beautiful island near Athens.
                     </p>
                     <ul class="space-y-6">
-                        <li class="flex items-center gap-4 bg-white/50 md:bg-transparent p-3 md:p-0 rounded-2xl">
+                        <li class="flex items-center gap-4">
                             <div class="bg-blue-600 p-4 rounded-2xl text-white shadow-md"><i data-lucide="calendar-days" class="w-6 h-6"></i></div>
                             <div>
                                 <h4 class="text-xl font-bold text-gray-900">2 Distinct 5-Day Plans</h4>
                                 <p class="text-gray-800 font-medium mt-1">Carefully structured schedules to help you explore without feeling rushed.</p>
                             </div>
                         </li>
-                        <li class="flex items-center gap-4 bg-white/50 md:bg-transparent p-3 md:p-0 rounded-2xl">
+                        <li class="flex items-center gap-4">
                             <div class="bg-blue-600 p-4 rounded-2xl text-white shadow-md"><i data-lucide="ship" class="w-6 h-6"></i></div>
                             <div>
                                 <h4 class="text-xl font-bold text-gray-900">Nearby Island Trip</h4>
@@ -189,14 +192,14 @@
                 </div>
                 
                 <!-- Highlight Box (Glassmorphism) -->
-                <div class="w-full lg:w-1/2 bg-white/80 backdrop-blur-lg rounded-3xl p-8 md:p-10 border border-white/50 relative overflow-hidden shadow-2xl">
-                     <i data-lucide="compass" class="w-64 h-64 text-blue-200 absolute -bottom-12 -right-12 opacity-30"></i>
+                <div class="w-full lg:w-1/2 bg-white/85 backdrop-blur-md rounded-3xl p-8 md:p-10 border border-white/50 relative overflow-hidden shadow-2xl">
+                     <i data-lucide="compass" class="w-64 h-64 text-blue-200 absolute -bottom-12 -right-12 opacity-40"></i>
                      <div class="relative z-10">
                          <div class="w-14 h-14 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full flex items-center justify-center text-white mb-6 shadow-lg">
                              <i data-lucide="anchor" class="w-7 h-7"></i>
                          </div>
                          <h3 class="text-2xl font-extrabold text-gray-900 mb-4">The Perfect Combo</h3>
-                         <p class="text-gray-700 font-medium text-lg leading-relaxed">
+                         <p class="text-gray-800 font-medium text-lg leading-relaxed">
                              Combine the ancient wonders and urban energy of Athens with the relaxing breeze of the Saronic Gulf. The guide provides detailed ferry instructions, ticket tips, and the best island highlights so you can navigate like a local.
                          </p>
                      </div>
